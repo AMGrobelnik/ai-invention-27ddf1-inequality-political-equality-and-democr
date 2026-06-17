@@ -1,0 +1,15 @@
+{
+  "title": "Inequality and Democratic Resilience: Evidence from Post-1990 Democratizers",
+  "summary": "Successfully created a publication-ready LaTeX paper with PDF compilation. The paper includes all sections (Abstract, Introduction, Theoretical Framework, Data and Measurement, Empirical Framework, Results and Discussion, Conclusion), all 4 figures from available_figures (fig1 conceptual framework, fig2 post-1990 democratizers map, fig3 correlation matrix, fig4 within-country effects coefficient plot), and a complete references.bib with 15 entries. The paper.tex was compiled to paper.pdf (12 pages) using pdflatex and bibtex. Visual review of all 12 pages confirmed proper layout with no overlapping figures or cut-off text. All figures use appropriate figure* environments for their 21:9 aspect ratio. The xurl package was added to handle long URLs properly. The paper is ready for submission to top political science journals such as APSR, Journal of Democracy or World Politics.",
+  "out_expected_files": {
+    "paper_tex_path": "paper.tex",
+    "paper_pdf_path": "paper.pdf",
+    "references_bib_path": "references.bib",
+    "figure_paths": [
+      "figures/fig1_v0.jpg",
+      "figures/fig2_v0.jpg",
+      "figures/fig3_v0.jpg",
+      "figures/fig4_v0.jpg"
+    ]
+  }
+}

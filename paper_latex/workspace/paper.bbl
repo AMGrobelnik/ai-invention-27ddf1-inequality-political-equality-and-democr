@@ -1,0 +1,87 @@
+\begin{thebibliography}{xx}
+
+\harvarditem{Acemoglu \harvardand\ Robinson}{2006}{Acemoglu2006}
+Acemoglu, Daron \harvardand\ James~A. Robinson. 2006.
+\newblock {\em Economic Origins of Dictatorship and Democracy}.
+\newblock Cambridge University Press.
+
+\harvarditem{Acemoglu \harvardand\ Robinson}{2008}{Acemoglu2008}
+Acemoglu, Daron \harvardand\ James~A. Robinson. 2008.
+\newblock ``Persistence of power, elites, and institutions.'' {\em American
+  Economic Review} 98(1):267--293.
+
+\harvarditem{Baliamoune-Lutz}{2018}{BaliamouneLutz2018}
+Baliamoune-Lutz, Mina. 2018.
+\newblock ``Political elites, democracy and education.'' {\em Journal of
+  Developing Areas} 52(3).
+
+\harvarditem[Brady, Verba \harvardand\ Schlozman]{Brady, Verba \harvardand\
+  Schlozman}{1995}{Brady1995}
+Brady, Henry~E., Sidney Verba \harvardand\ Kay~Lehman Schlozman. 1995.
+\newblock ``Beyond SES: A resource model of political participation.'' {\em
+  American Political Science Review} 89(2):271--294.
+
+\harvarditem{Cameron \harvardand\ Miller}{2015}{Cameron2015}
+Cameron, A.~Colin \harvardand\ Douglas~L. Miller. 2015.
+\newblock ``A practitioner's guide to cluster-robust inference.'' {\em Journal
+  of Human Resources} 50(2):317--372.
+
+\harvarditem[Coppedge et~al.]{Coppedge, Gerring, Altman, Bernhard, Fish,
+  Hicken, Kroenig, Lindberg, McMann, Paxton et~al.}{2011}{Coppedge2011}
+Coppedge, Michael, John Gerring, David Altman, Michael Bernhard, Steven~M.
+  Fish, Allen Hicken, Matthew Kroenig, Staffan~I. Lindberg, Kelly McMann,
+  Pamela Paxton et~al. 2011.
+\newblock ``Conceptualizing and measuring democracy: A new approach.'' {\em
+  Perspectives on Politics} 9(2):247--267.
+
+\harvarditem[Haggard et~al.]{Haggard, Kaufman, Kurtz \harvardand\
+  Powell}{2024}{Haggard2024}
+Haggard, Stephan, Robert~R. Kaufman, Marcus~J. Kurtz \harvardand\ Aurelian~R.
+  Powell. 2024.
+\newblock ``Income inequality and the erosion of democracy in the twenty-first
+  century.'' {\em Proceedings of the National Academy of Sciences}
+  121(52):e2422543121.
+
+\harvarditem{L{\"u}hrmann \harvardand\ Lindberg}{2019}{Luhrmann2019}
+L{\"u}hrmann, Anna \harvardand\ Staffan~I. Lindberg. 2019.
+\newblock ``A third wave of autocratization is here: What is new about it?''
+  {\em Democratization} 26(7):1095--1113.
+
+\harvarditem{Nickell}{1981}{Nickell1981}
+Nickell, Stephen. 1981.
+\newblock ``Biases in dynamic models with fixed effects.'' {\em Econometrica}
+  49(6):1417--1426.
+
+\harvarditem{Olson}{1965}{Olson1965}
+Olson, Mancur. 1965.
+\newblock {\em The Logic of Collective Action: Public Goods and the Theory of
+  Groups}.
+\newblock Harvard University Press.
+
+\harvarditem{Page \harvardand\ Shapiro}{1983}{Page1983}
+Page, Benjamin~I. \harvardand\ Robert~Y. Shapiro. 1983.
+\newblock ``Effects of public opinion on policy.'' {\em American Political
+  Science Review} 77(1):175--190.
+
+\harvarditem{Przeworski}{2019}{Przeworski2019}
+Przeworski, Adam. 2019.
+\newblock {\em Crises of Democracy}.
+\newblock Cambridge University Press.
+
+\harvarditem{Roodman}{2009}{Roodman2009}
+Roodman, David. 2009.
+\newblock ``How to do xtabond2: An introduction to difference and system GMM in
+  Stata.'' {\em Stata Journal} 9(1):86--136.
+
+\harvarditem{Sobel}{1982}{Sobel1982}
+Sobel, Michael~E. 1982.
+\newblock ``Asymptotic confidence intervals for indirect effects in structural
+  equation models.'' {\em Sociological Methodology} 13:290--312.
+
+\harvarditem[Thomas, Wang \harvardand\ Fan]{Thomas, Wang \harvardand\
+  Fan}{2001}{Thomas2001}
+Thomas, Vinod, Yan Wang \harvardand\ Xibo Fan. 2001.
+\newblock ``Measuring education inequality: Gini coefficients of education.''
+  {\em World Bank Economic Review} 15(3):395--415.
+
+\end{thebibliography}
