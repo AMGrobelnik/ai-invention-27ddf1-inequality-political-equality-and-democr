@@ -1,0 +1,153 @@
+{
+  "metadata": {
+    "method": "Panel OLS with entity/time effects",
+    "n_countries": 38,
+    "n_obs": 1291,
+    "years": "1990-2023",
+    "models": {
+      "Model 1": {
+        "model_name": "Model 1: Main Effect",
+        "coefficients": {
+          "v2x_libdem_lag": 0.856573177408206,
+          "gini": -0.0005228658942232346,
+          "education_spending_gdp": 0.000269469977352194
+        },
+        "std_errors": {
+          "v2x_libdem_lag": 0.048207240647905054,
+          "gini": 0.00043672170486709096,
+          "education_spending_gdp": 0.0007722166842705365
+        },
+        "pvalues": {
+          "v2x_libdem_lag": 0.0,
+          "gini": 0.2314626273753455,
+          "education_spending_gdp": 0.7271878453458851
+        },
+        "n_obs": 1187,
+        "n_groups": 36,
+        "r_squared": 0.7997214766615179,
+        "method": "Panel OLS with entity/time effects"
+      },
+      "Model 2": {
+        "model_name": "Model 2: Interaction Effect",
+        "coefficients": {
+          "v2x_libdem_lag": 0.8558640639667587,
+          "gini": -0.00044830853867238525,
+          "edu_ineq_index": 0.006877850371894466,
+          "gini_edu_interaction": -4.964637590340529e-05,
+          "education_spending_gdp": 0.0005588759466841732
+        },
+        "std_errors": {
+          "v2x_libdem_lag": 0.048475548342123705,
+          "gini": 0.0005426712697704842,
+          "edu_ineq_index": 0.008966856387108575,
+          "gini_edu_interaction": 0.00024064602443783233,
+          "education_spending_gdp": 0.0007640404452540333
+        },
+        "pvalues": {
+          "v2x_libdem_lag": 0.0,
+          "gini": 0.40891610135250045,
+          "edu_ineq_index": 0.44322603507548664,
+          "gini_edu_interaction": 0.8365907022663421,
+          "education_spending_gdp": 0.4646433344495797
+        },
+        "n_obs": 1187,
+        "n_groups": 36,
+        "r_squared": 0.8006634987103599,
+        "method": "Panel OLS with entity/time effects"
+      },
+      "Model 3_mediation": {
+        "x": "gini_edu_interaction",
+        "m": "v2pepwrsoc",
+        "y": "v2x_libdem",
+        "sobel_z": null,
+        "sobel_p": 0.0,
+        "prop_mediated": null,
+        "n": 1223,
+        "paths": [
+          {
+            "path": "v2pepwrsoc ~ X",
+            "coef": -0.002092151341042071,
+            "se": 9.108967118640972e-05,
+            "pval": 2.5453060132828926e-97,
+            "CI2.5": -0.002270860965913069,
+            "CI97.5": -0.0019134417161710728,
+            "sig": "Yes"
+          },
+          {
+            "path": "Y ~ v2pepwrsoc",
+            "coef": 0.8886527407615311,
+            "se": 0.009595642622160687,
+            "pval": 0.0,
+            "CI2.5": 0.8698269653353229,
+            "CI97.5": 0.9074785161877393,
+            "sig": "Yes"
+          },
+          {
+            "path": "Total",
+            "coef": -0.001981859107541234,
+            "se": 8.661645377605965e-05,
+            "pval": 1.0319939691715715e-96,
+            "CI2.5": -0.002151792687939153,
+            "CI97.5": -0.001811925527143315,
+            "sig": "Yes"
+          },
+          {
+            "path": "Direct",
+            "coef": -0.00017565945648367887,
+            "se": 4.3465924736082066e-05,
+            "pval": 5.6478233608200076e-05,
+            "CI2.5": -0.00026093570483003245,
+            "CI97.5": -9.03832081373253e-05,
+            "sig": "Yes"
+          },
+          {
+            "path": "Indirect",
+            "coef": -0.0018061996510576688,
+            "se": 8.997837408166298e-05,
+            "pval": 0.0,
+            "CI2.5": -0.0019867891656230475,
+            "CI97.5": -0.0016336258054866566,
+            "sig": "Yes"
+          }
+        ]
+      },
+      "Model 4": {
+        "model_name": "Model 4: Triple Interaction",
+        "coefficients": {
+          "v2x_libdem_lag": 0.8560561362491664,
+          "gini": -0.0004280448446247472,
+          "edu_ineq_index": 0.00628045748363456,
+          "gini_edu_interaction": 1.859990265486869e-05,
+          "triple_interaction": -1.146841967128297e-05,
+          "education_spending_gdp": 0.0009332230848009274
+        },
+        "std_errors": {
+          "v2x_libdem_lag": 0.048420392299368016,
+          "gini": 0.0005505373166572288,
+          "edu_ineq_index": 0.008787850629339181,
+          "gini_edu_interaction": 0.00024193977135412607,
+          "triple_interaction": 1.824443180974711e-05,
+          "education_spending_gdp": 0.0007790510536273403
+        },
+        "pvalues": {
+          "v2x_libdem_lag": 0.0,
+          "gini": 0.4370268326693263,
+          "edu_ineq_index": 0.4749597317375205,
+          "gini_edu_interaction": 0.9387342291053051,
+          "triple_interaction": 0.5297410173687318,
+          "education_spending_gdp": 0.23121206691695706
+        },
+        "n_obs": 1187,
+        "n_groups": 36,
+        "r_squared": 0.8007368899250737,
+        "method": "Panel OLS with entity/time effects"
+      }
+    },
+    "hypothesis_test_results": {
+      "confirmed": false,
+      "criterion1": false,
+      "criterion2": true,
+      "criterion3": false
+    }
+  }
+}

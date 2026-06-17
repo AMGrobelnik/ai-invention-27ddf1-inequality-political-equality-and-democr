@@ -1,0 +1,599 @@
+{
+  "datasets": [
+    {
+      "dataset": "dual_stratification_panel",
+      "examples": [
+        {
+          "input": "{\"gini\": 30.7, \"education_spending_gdp\": 4.45406007766724, \"tertiary_enrollment\": 42.33982849121094, \"v2pepwrsoc\": 0.47699999809265137, \"edu_ineq_index\": 0.44036125734794573}",
+          "output": "0.4560000002384186",
+          "metadata_country": "Bulgaria",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 32.8, \"education_spending_gdp\": 2.23007988929748, \"tertiary_enrollment\": 42.33982849121094, \"v2pepwrsoc\": 0.5659999847412109, \"edu_ineq_index\": 0.44036125734794573}",
+          "output": "0.6029999852180481",
+          "metadata_country": "Bulgaria",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 32.7, \"education_spending_gdp\": 3.38608002662659, \"tertiary_enrollment\": 41.42900848388672, \"v2pepwrsoc\": 0.5740000009536743, \"edu_ineq_index\": 0.4732341270023976}",
+          "output": "0.621999979019165",
+          "metadata_country": "Bulgaria",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 33.6, \"education_spending_gdp\": 4.2190899848938, \"tertiary_enrollment\": 52.65040969848633, \"v2pepwrsoc\": 0.5640000104904175, \"edu_ineq_index\": 0.06823680974810821}",
+          "output": "0.6259999871253967",
+          "metadata_country": "Bulgaria",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 37.4, \"education_spending_gdp\": 4.19388008117676, \"tertiary_enrollment\": 72.98155975341797, \"v2pepwrsoc\": 0.5220000147819519, \"edu_ineq_index\": -0.6655451013940389}",
+          "output": "0.5690000057220459",
+          "metadata_country": "Bulgaria",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"tertiary_enrollment\": 1.5468900203704834, \"v2pepwrsoc\": 0.28299999237060547, \"edu_ineq_index\": 1.9126400153799625}",
+          "output": "0.28700000047683716",
+          "metadata_country": "Cape Verde",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"tertiary_enrollment\": 1.5468900203704834, \"v2pepwrsoc\": 0.609000027179718, \"edu_ineq_index\": 1.9126400153799625}",
+          "output": "0.6909999847412109",
+          "metadata_country": "Cape Verde",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"tertiary_enrollment\": 3.7671399116516113, \"v2pepwrsoc\": 0.6100000143051147, \"edu_ineq_index\": 1.8325078436122257}",
+          "output": "0.6819999814033508",
+          "metadata_country": "Cape Verde",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"tertiary_enrollment\": 11.645150184631348, \"v2pepwrsoc\": 0.6330000162124634, \"edu_ineq_index\": 1.5481785548860167}",
+          "output": "0.6990000009536743",
+          "metadata_country": "Cape Verde",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"tertiary_enrollment\": 23.270397186279297, \"v2pepwrsoc\": 0.6499999761581421, \"edu_ineq_index\": 1.1286058332583209}",
+          "output": "0.7149999737739563",
+          "metadata_country": "Cape Verde",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 27.0, \"education_spending_gdp\": 3.57779002189636, \"tertiary_enrollment\": 56.24380111694336, \"v2pepwrsoc\": 0.45399999618530273, \"edu_ineq_index\": -0.061454113558888995}",
+          "output": "0.4480000138282776",
+          "metadata_country": "Latvia",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 31.6, \"education_spending_gdp\": 5.41694021224976, \"tertiary_enrollment\": 56.24380111694336, \"v2pepwrsoc\": 0.6399999856948853, \"edu_ineq_index\": -0.061454113558888995}",
+          "output": "0.6819999814033508",
+          "metadata_country": "Latvia",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 35.1, \"education_spending_gdp\": 5.78911018371582, \"tertiary_enrollment\": 67.8093032836914, \"v2pepwrsoc\": 0.6579999923706055, \"edu_ineq_index\": -0.4788705538638228}",
+          "output": "0.7089999914169312",
+          "metadata_country": "Latvia",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 37.2, \"education_spending_gdp\": 5.63671016693115, \"tertiary_enrollment\": 72.36354064941406, \"v2pepwrsoc\": 0.6589999794960022, \"edu_ineq_index\": -0.6432398585507625}",
+          "output": "0.6890000104904175",
+          "metadata_country": "Latvia",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 35.1, \"education_spending_gdp\": 5.47479009628296, \"tertiary_enrollment\": 70.89794158935547, \"v2pepwrsoc\": 0.7310000061988831, \"edu_ineq_index\": -0.5903441750133196}",
+          "output": "0.7580000162124634",
+          "metadata_country": "Latvia",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 71.1, \"education_spending_gdp\": 7.13076019287109, \"tertiary_enrollment\": 2.849329948425293, \"v2pepwrsoc\": 0.3479999899864197, \"edu_ineq_index\": 1.8656329913319512}",
+          "output": "0.4050000011920929",
+          "metadata_country": "Namibia",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 71.1, \"education_spending_gdp\": 7.13076019287109, \"tertiary_enrollment\": 7.098030090332031, \"v2pepwrsoc\": 0.44600000977516174, \"edu_ineq_index\": 1.7122909864982399}",
+          "output": "0.5559999942779541",
+          "metadata_country": "Namibia",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 71.1, \"education_spending_gdp\": 6.7423300743103, \"tertiary_enrollment\": 6.050169944763184, \"v2pepwrsoc\": 0.4359999895095825, \"edu_ineq_index\": 1.7501098417104508}",
+          "output": "0.5350000262260437",
+          "metadata_country": "Namibia",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 63.3, \"education_spending_gdp\": 6.40342998504639, \"tertiary_enrollment\": 9.49368953704834, \"v2pepwrsoc\": 0.4410000145435333, \"edu_ineq_index\": 1.6258280189579049}",
+          "output": "0.5440000295639038",
+          "metadata_country": "Namibia",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 61.0, \"education_spending_gdp\": 3.66711166353218, \"tertiary_enrollment\": 18.465307235717773, \"v2pepwrsoc\": 0.4480000138282776, \"edu_ineq_index\": 1.3020287865888778}",
+          "output": "0.5440000295639038",
+          "metadata_country": "Namibia",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": true,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 32.6, \"education_spending_gdp\": 4.66683006286621, \"tertiary_enrollment\": 119.67938995361328, \"v2pepwrsoc\": 0.7950000166893005, \"edu_ineq_index\": -2.3509403199581276}",
+          "output": "0.8519999980926514",
+          "metadata_country": "Australia",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 32.6, \"education_spending_gdp\": 5.24482011795044, \"tertiary_enrollment\": 119.67938995361328, \"v2pepwrsoc\": 0.7889999747276306, \"edu_ineq_index\": -2.3509403199581276}",
+          "output": "0.8500000238418579",
+          "metadata_country": "Australia",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 33.5, \"education_spending_gdp\": 5.24482011795044, \"tertiary_enrollment\": 119.67938995361328, \"v2pepwrsoc\": 0.7789999842643738, \"edu_ineq_index\": -2.3509403199581276}",
+          "output": "0.8399999737739563",
+          "metadata_country": "Australia",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 35.4, \"education_spending_gdp\": 5.24482011795044, \"tertiary_enrollment\": 119.67938995361328, \"v2pepwrsoc\": 0.7910000085830688, \"edu_ineq_index\": -2.3509403199581276}",
+          "output": "0.8500000238418579",
+          "metadata_country": "Australia",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 34.4, \"education_spending_gdp\": 5.24482011795044, \"tertiary_enrollment\": 119.67938995361328, \"v2pepwrsoc\": 0.7390000224113464, \"edu_ineq_index\": -2.3509403199581276}",
+          "output": "0.8100000023841858",
+          "metadata_country": "Australia",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 24.7, \"education_spending_gdp\": 5.59853982925415, \"tertiary_enrollment\": 58.36640167236328, \"v2pepwrsoc\": 0.8679999709129333, \"edu_ineq_index\": -0.13806197331789022}",
+          "output": "0.8790000081062317",
+          "metadata_country": "Denmark",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 23.0, \"education_spending_gdp\": 7.89128017425537, \"tertiary_enrollment\": 58.36640167236328, \"v2pepwrsoc\": 0.8679999709129333, \"edu_ineq_index\": -0.13806197331789022}",
+          "output": "0.8809999823570251",
+          "metadata_country": "Denmark",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 23.8, \"education_spending_gdp\": 8.20600032806396, \"tertiary_enrollment\": 64.22347259521484, \"v2pepwrsoc\": 0.8700000047683716, \"edu_ineq_index\": -0.3494525087206141}",
+          "output": "0.8820000290870667",
+          "metadata_country": "Denmark",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 25.2, \"education_spending_gdp\": 7.441969871521, \"tertiary_enrollment\": 74.86062622070312, \"v2pepwrsoc\": 0.8820000290870667, \"edu_ineq_index\": -0.733363448108428}",
+          "output": "0.8939999938011169",
+          "metadata_country": "Denmark",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 28.4, \"education_spending_gdp\": 7.63833999633789, \"tertiary_enrollment\": 81.31436157226562, \"v2pepwrsoc\": 0.8849999904632568, \"edu_ineq_index\": -0.9662885038716392}",
+          "output": "0.8960000276565552",
+          "metadata_country": "Denmark",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 25.2, \"education_spending_gdp\": 6.31036996841431, \"tertiary_enrollment\": 69.8772201538086, \"v2pepwrsoc\": 0.8389999866485596, \"edu_ineq_index\": -0.5535047968327594}",
+          "output": "0.8450000286102295",
+          "metadata_country": "Norway",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 26.0, \"education_spending_gdp\": 7.13806009292603, \"tertiary_enrollment\": 69.8772201538086, \"v2pepwrsoc\": 0.8389999866485596, \"edu_ineq_index\": -0.5535047968327594}",
+          "output": "0.8479999899864197",
+          "metadata_country": "Norway",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 27.4, \"education_spending_gdp\": 7.42243003845215, \"tertiary_enrollment\": 72.31732940673828, \"v2pepwrsoc\": 0.8510000109672546, \"edu_ineq_index\": -0.6415720250108362}",
+          "output": "0.859000027179718",
+          "metadata_country": "Norway",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 27.0, \"education_spending_gdp\": 6.2491397857666, \"tertiary_enrollment\": 73.59146881103516, \"v2pepwrsoc\": 0.8560000061988831, \"edu_ineq_index\": -0.6875576404148056}",
+          "output": "0.8629999756813049",
+          "metadata_country": "Norway",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 26.8, \"education_spending_gdp\": 7.64402008056641, \"tertiary_enrollment\": 78.23973846435547, \"v2pepwrsoc\": 0.8420000076293945, \"edu_ineq_index\": -0.8553207123759059}",
+          "output": "0.8560000061988831",
+          "metadata_country": "Norway",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 31.4, \"education_spending_gdp\": 5.96922016143799, \"tertiary_enrollment\": 58.51911926269531, \"v2pepwrsoc\": 0.718999981880188, \"edu_ineq_index\": -0.14357378179877245}",
+          "output": "0.7590000033378601",
+          "metadata_country": "Canada",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 32.8, \"education_spending_gdp\": 6.30476999282837, \"tertiary_enrollment\": 58.51911926269531, \"v2pepwrsoc\": 0.7310000061988831, \"edu_ineq_index\": -0.14357378179877245}",
+          "output": "0.7689999938011169",
+          "metadata_country": "Canada",
+          "metadata_year": 1996,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 33.6, \"education_spending_gdp\": 4.99306011199951, \"tertiary_enrollment\": 58.413150787353516, \"v2pepwrsoc\": 0.7179999947547913, \"edu_ineq_index\": -0.13974921948198105}",
+          "output": "0.7540000081062317",
+          "metadata_country": "Canada",
+          "metadata_year": 2002,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 33.9, \"education_spending_gdp\": 4.62612009048462, \"tertiary_enrollment\": 64.30741119384766, \"v2pepwrsoc\": 0.7200000286102295, \"edu_ineq_index\": -0.35248197951577154}",
+          "output": "0.765999972820282",
+          "metadata_country": "Canada",
+          "metadata_year": 2008,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 33.2, \"education_spending_gdp\": 4.84358978271484, \"tertiary_enrollment\": 67.1677017211914, \"v2pepwrsoc\": 0.6909999847412109, \"edu_ineq_index\": -0.4557141844773877}",
+          "output": "0.7409999966621399",
+          "metadata_country": "Canada",
+          "metadata_year": 2014,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        }
+      ]
+    }
+  ]
+}
