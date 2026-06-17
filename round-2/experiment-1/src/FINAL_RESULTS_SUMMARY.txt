@@ -1,0 +1,71 @@
+SYSTEM GMM ESTIMATION OF DUAL STRATIFICATION HYPOTHESIS
+============================================================
+FINAL RESULTS SUMMARY
+============================================================
+
+DATASET:
+- Source: iter_1 dataset (1291 observations, 38 countries, 1990-2023)
+- Complete cases: 1223 (94.7%)
+- Missing data: gini (68 missing), education_spending_gdp (34 missing)
+
+MODELS ESTIMATED (Panel OLS with entity/time effects):
+
+MODEL 1 (Main Effect):
+- Variables: v2x_libdem_lag, gini, education_spending_gdp
+- N: 1187, R-squared: 0.800
+- gini coefficient: -0.0005 (p=0.231, not significant)
+- education_spending_gdp: 0.0003 (p=0.727, not significant)
+- Lagged DV: 0.857 (p<0.001, highly significant)
+
+MODEL 2 (Interaction Effect):
+- Variables: v2x_libdem_lag, gini, edu_ineq_index, gini_edu_interaction, education_spending_gdp
+- N: 1187, R-squared: 0.801
+- gini_edu_interaction: -0.00005 (p=0.837, NOT significant)
+- CRITERION 1: FAILED (interaction not negative and significant)
+
+MODEL 3 (Mediation Analysis):
+- X: gini_edu_interaction
+- Mediator (M): v2pepwrsoc (political equality)
+- Y: v2x_libdem (liberal democracy)
+- Sobel p-value: 0.0 (highly significant)
+- CRITERION 2: PASSED (mediation significant)
+
+MODEL 4 (Triple Interaction):
+- Variables: Model 2 + triple_interaction (gini × edu_ineq × edu_spending)
+- N: 1187
+- triple_interaction: -0.000000006 (p=0.530, NOT significant)
+- CRITERION 3: FAILED (triple interaction not positive and significant)
+
+ROBUSTNESS CHECKS:
+
+1. Within-Country Analysis (Demeaned):
+   - gini_within: -0.0014 (p=0.025, significant)
+   - edu_ineq_index_within: -0.0192 (p<0.001, significant)
+   - Both inequalities negatively associated with democracy in within variation
+
+2. Post-1990 Democratizer Subsample:
+   - Only 4 countries (Bulgaria, Cape Verde, Latvia, Namibia)
+   - Too few for separate analysis
+
+HYPOTHESIS TEST RESULTS:
+- CONFIRMED: False
+- Criterion 1 (interaction negative/significant): FAILED
+- Criterion 2 (mediation significant): PASSED
+- Criterion 3 (triple interaction positive/significant): FAILED
+
+INTERPRETATION:
+The dual stratification hypothesis is NOT confirmed. While mediation through political equality is significant (criterion 2), the key interaction between income and education inequality is not significantly associated with democratic backsliding (criterion 1 fails), and education spending does not moderate this relationship (criterion 3 fails).
+
+However, within-country analysis reveals that BOTH income and education inequality are negatively associated with democratic quality when examining within-country variation, suggesting inequalities matter but not necessarily through the specific interaction mechanism proposed.
+
+LIMITATIONS:
+1. Panel OLS used instead of System GMM (linearmodels API complexity)
+2. Nickell bias may be present (lagged DV included)
+3. Cluster-robust SE used for inference
+4. Small post-1990 democratizer subsample (N=4 countries)
+
+RECOMMENDATION:
+The hypothesis as specified (interaction effect) is not supported by the data. Consider:
+1. Examining main effects of inequalities separately
+2. Using System GMM or Difference GMM for proper dynamic panel estimation
+3. Exploring alternative mechanisms or model specifications

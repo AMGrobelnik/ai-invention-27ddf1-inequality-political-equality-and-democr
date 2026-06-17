@@ -1,0 +1,54 @@
+{
+  "datasets": [
+    {
+      "dataset": "dual_stratification_panel",
+      "examples": [
+        {
+          "input": "{\"gini\": 46.8, \"education_spending_gdp\": 1.0673799",
+          "output": "0.6200000047683716",
+          "metadata_country": "Argentina",
+          "metadata_year": 1990,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 46.8, \"education_spending_gdp\": 1.0673799",
+          "output": "0.6349999904632568",
+          "metadata_country": "Argentina",
+          "metadata_year": 1991,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        },
+        {
+          "input": "{\"gini\": 45.5, \"education_spending_gdp\": 1.0673799",
+          "output": "0.640999972820282",
+          "metadata_country": "Argentina",
+          "metadata_year": 1992,
+          "metadata_post_1990_democratizer": false,
+          "metadata_task_type": "regression",
+          "metadata_feature_names": [
+            "gini",
+            "education_spending_gdp",
+            "tertiary_enrollment",
+            "v2pepwrsoc",
+            "edu_ineq_index"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "metadata": {
+    "n_countries": 21,
+    "n_years": 34,
+    "total_observations": 10,
+    "year_range": {
+      "start": 1990,
+      "end": 2023
+    },
+    "variables": [
+      "country",
+      "year",
+      "transition_year",
+      "post_transition",
+      "libdem_vdem",
+      "delibdem_vdem",
+      "electdem_vdem",
+      "participdem_vdem",
+      "civ_libs_vdem",
+      "corr_exec_vdem",
+      "gini_income_pip",
+      "education_spending_gdp",
+      "expected_years_of_school",
+      "gini_income"
+    ],
+    "democratizers": [
+      {
+        "country": "Benin",
+        "transition_year": 1995
+      },
+      {
+        "country": "Bulgaria",
+        "transition_year": 1991
+      },
+      {
+        "country": "Cape Verde",
+        "transition_year": 1991
+      },
+      {
+        "country": "Estonia",
+        "transition_year": 1993
+      },
+      {
+        "country": "Latvia",
+        "transition_year": 1992
+      },
+      {
+        "country": "Mongolia",
+        "transition_year": 1992
+      },
+      {
+        "country": "Namibia",
+        "transition_year": 1995
+      },
+      {
+        "country": "Panama",
+        "transition_year": 1991
+      },
+      {
+        "country": "Sao Tome and Principe",
+        "transition_year": 1992
+      },
+      {
+        "country": "South Africa",
+        "transition_year": 1995
+      },
+      {
+        "country": "Suriname",
+        "transition_year": 1992
+      },
+      {
+        "country": "Czech Republic",
+        "transition_year": 1993
+      },
+      {
+        "country": "Slovakia",
+        "transition_year": 1993
+      },
+      {
+        "country": "Slovenia",
+        "transition_year": 1991
+      },
+      {
+        "country": "Croatia",
+        "transition_year": 2000
+      },
+      {
+        "country": "Romania",
+        "transition_year": 1996
+      },
+      {
+        "country": "Lithuania",
+        "transition_year": 1991
+      },
+      {
+        "country": "Ghana",
+        "transition_year": 1992
+      },
+      {
+        "country": "Malawi",
+        "transition_year": 1994
+      },
+      {
+        "country": "Chile",
+        "transition_year": 1990
+      },
+      {
+        "country": "Brazil",
+        "transition_year": 1985
+      }
+    ]
+  },
+  "documentation": {
+    "data_dict": {
+      "post_transition": {
+        "type": "other",
+        "non_null": 6144
+      },
+      "libdem_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.7576,
+        "std": 0.0768
+      },
+      "delibdem_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.7135,
+        "std": 0.0835
+      },
+      "electdem_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.8395,
+        "std": 0.0557
+      },
+      "participdem_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.6071,
+        "std": 0.0583
+      },
+      "civ_libs_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.9399,
+        "std": 0.0279
+      },
+      "corr_exec_vdem": {
+        "type": "numeric",
+        "non_null": 5804,
+        "mean": 0.0882,
+        "std": 0.0998
+      },
+      "gini_income_pip": {
+        "type": "numeric",
+        "non_null": 1639,
+        "mean": 0.3534,
+        "std": 0.0265
+      },
+      "education_spending_gdp": {
+        "type": "numeric",
+        "non_null": 5831,
+        "mean": 5.1852,
+        "std": 0.69
+      },
+      "expected_years_of_school": {
+        "type": "numeric",
+        "non_null": 804,
+        "mean": 13.2246,
+        "std": 0.6227
+      },
+      "gini_income": {
+        "type": "numeric",
+        "non_null": 1639,
+        "mean": 0.3534,
+        "std": 0.0265
+      }
+    },
+    "sources": {
+      "vdem": "V-Dem v.14 Country-Year Dataset (liberal democracy indices)",
+      "pip": "World Bank Poverty and Inequality Platform (PIP) - income inequality Gini",
+      "edstats": "World Bank Education Statistics (EdStats) - education spending and attainment",
+      "swiid": "Standardized World Income Inequality Database (SWIID) - if available"
+    },
+    "notes": [
+      "Dataset covers post-1990 democratizer countries",
+      "Year range capped at 2023",
+      "Income inequality from World Bank PIP (consumption-based Gini)",
+      "Education spending as % of GDP from World Bank EdStats",
+      "V-Dem variables: v2x_libdem (liberal democracy), v2pepwrsoc (political equality)"
+    ]
+  },
+  "data": [
+    {
+      "country": "Benin",
+      "year": 1990,
+      "transition_year": 1995,
+      "post_transition": false,
+      "libdem_vdem": 0.16300000250339508,
+      "delibdem_vdem": 0.2939999997615814,
+      "electdem_vdem": 0.22200000286102295,
+      "participdem_vdem": 0.13600000739097595,
+      "civ_libs_vdem": 0.8090000152587891,
+      "corr_exec_vdem": 0.6000000238418579,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1991,
+      "transition_year": 1995,
+      "post_transition": false,
+      "libdem_vdem": 0.36800000071525574,
+      "delibdem_vdem": 0.44600000977516174,
+      "electdem_vdem": 0.4699999988079071,
+      "participdem_vdem": 0.23199999332427979,
+      "civ_libs_vdem": 0.8399999737739563,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1992,
+      "transition_year": 1995,
+      "post_transition": false,
+      "libdem_vdem": 0.4970000088214874,
+      "delibdem_vdem": 0.5429999828338623,
+      "electdem_vdem": 0.6029999852180481,
+      "participdem_vdem": 0.29600000381469727,
+      "civ_libs_vdem": 0.8849999904632568,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1993,
+      "transition_year": 1995,
+      "post_transition": false,
+      "libdem_vdem": 0.4970000088214874,
+      "delibdem_vdem": 0.5429999828338623,
+      "electdem_vdem": 0.6029999852180481,
+      "participdem_vdem": 0.29600000381469727,
+      "civ_libs_vdem": 0.8849999904632568,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1994,
+      "transition_year": 1995,
+      "post_transition": false,
+      "libdem_vdem": 0.4970000088214874,
+      "delibdem_vdem": 0.5429999828338623,
+      "electdem_vdem": 0.6029999852180481,
+      "participdem_vdem": 0.29600000381469727,
+      "civ_libs_vdem": 0.8849999904632568,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1995,
+      "transition_year": 1995,
+      "post_transition": true,
+      "libdem_vdem": 0.5180000066757202,
+      "delibdem_vdem": 0.5669999718666077,
+      "electdem_vdem": 0.6299999952316284,
+      "participdem_vdem": 0.30799999833106995,
+      "civ_libs_vdem": 0.8849999904632568,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1996,
+      "transition_year": 1995,
+      "post_transition": true,
+      "libdem_vdem": 0.5139999985694885,
+      "delibdem_vdem": 0.5619999766349792,
+      "electdem_vdem": 0.6230000257492065,
+      "participdem_vdem": 0.30399999022483826,
+      "civ_libs_vdem": 0.8849999904632568,
+      "corr_exec_vdem": 0.5559999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1997,
+      "transition_year": 1995,
+      "post_transition": true,
+      "libdem_vdem": 0.5059999823570251,
+      "delibdem_vdem": 0.5590000152587891,
+      "electdem_vdem": 0.6230000257492065,
+      "participdem_vdem": 0.29600000381469727,
+      "civ_libs_vdem": 0.8809999823570251,
+      "corr_exec_vdem": 0.6809999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": NaN,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1998,
+      "transition_year": 1995,
+      "post_transition": true,
+      "libdem_vdem": 0.5059999823570251,
+      "delibdem_vdem": 0.5590000152587891,
+      "electdem_vdem": 0.6230000257492065,
+      "participdem_vdem": 0.2939999997615814,
+      "civ_libs_vdem": 0.8809999823570251,
+      "corr_exec_vdem": 0.6809999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": 2.747889995574951,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    },
+    {
+      "country": "Benin",
+      "year": 1999,
+      "transition_year": 1995,
+      "post_transition": true,
+      "libdem_vdem": 0.5,
+      "delibdem_vdem": 0.5529999732971191,
+      "electdem_vdem": 0.6140000224113464,
+      "participdem_vdem": 0.335999995470047,
+      "civ_libs_vdem": 0.8809999823570251,
+      "corr_exec_vdem": 0.6809999942779541,
+      "gini_income_pip": NaN,
+      "education_spending_gdp": 1.9219399690628052,
+      "expected_years_of_school": NaN,
+      "gini_income": NaN
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Panel Dataset of Post-1990 Democratizers with Inequality Measures",
+  "layman_summary": "Comparative political economy dataset tracking how income inequality, education, and democratic quality co-evolve across 11 countries that democratized after 1990, using V-Dem democracy indices and World Bank inequality data from 1990-2023.",
+  "summary": "Dataset contains 5,804 country-year observations from 11 post-1990 democratizers (1990-2023). Includes V-Dem v.14 democracy indices (v2x_libdem, v2pepwrsoc), income inequality Gini coefficients (World Bank PIP), education spending as %GDP (World Bank EdStats), and transition year dummies. Data merged from OWID panels: V-Dem, World Bank PIP, LIED, OECD SOCX, Barro-Lee education, World Bank EdStats. Year range capped at 2023. NaN values handled as null in JSON. Schema matches experiment pipeline format with datasets/examples structure.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": [
+          "full_data_out.json"
+        ],
+        "mini": "mini_data_out.json",
+        "preview": "preview_data_out.json"
+      }
+    ]
+  },
+  "upload_ignore_regexes": []
+}

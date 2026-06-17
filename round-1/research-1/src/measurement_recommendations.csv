@@ -1,0 +1,8 @@
+measurement_type,variable,source,validity_evidence,coverage,recommendation
+education_inequality,education_gini,Thomas et al. (2001) based on Barro-Lee (2013),Correlation with mean years r=-0.89; validated against enrollment measures,146 countries 1950-2010 (updated to 2015),Primary recommendation - calculate from Barro-Lee attainment data
+education_inequality,secondary_completion_rate,lsc from Barro-Lee,Moderate validity - captures upper-tail inequality,146 countries 1950-2010,Alternative if education gini unavailable
+education_inequality,tertiary_enrollment,World Bank EdStats,Limited - measures access not distribution,Poor validity for inequality measurement,Not recommended as primary measure
+income_inequality,gini_net,SWIID v9.92 (Solt 2020),Cross-validated against LIS; superior accuracy,199 countries 1960-present,Primary recommendation for income inequality
+income_inequality,gini_gross,World Bank PIP,Mixed welfare measures (income vs consumption),Global coverage but comparability issues,Use only for poverty analysis not inequality
+political_equality,v2pepwrsoc,V-Dem v.14 (2024),Expert-coded; Bayesian IRT aggregation; factor loading 0.511,All countries 1789-2023 annual data,Primary recommendation for political equality
+political_equality,v2x_egaldem,V-Dem v.14 (2024),Composite index includes v2pepwrsoc + other indicators,All countries 1900-2023,Alternative - broader political equality concept

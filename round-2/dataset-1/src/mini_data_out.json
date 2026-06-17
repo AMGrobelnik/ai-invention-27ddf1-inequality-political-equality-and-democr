@@ -1,0 +1,54 @@
+{
+  "datasets": [
+    {
+      "dataset": "post1990_democratizers_inequality",
+      "examples": [
+        {
+          "input": "{\"post_transition\": false, \"transition_year\": 1995}",
+          "output": "0.16300000250339508",
+          "metadata_fold": 0,
+          "metadata_feature_names": [
+            "gini_income_swiid",
+            "education_spending_gdp",
+            "post_transition",
+            "transition_year"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 0,
+          "metadata_country": "Benin",
+          "metadata_year": 1990
+        },
+        {
+          "input": "{\"post_transition\": false, \"transition_year\": 1995}",
+          "output": "0.36800000071525574",
+          "metadata_fold": 1,
+          "metadata_feature_names": [
+            "gini_income_swiid",
+            "education_spending_gdp",
+            "post_transition",
+            "transition_year"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 1,
+          "metadata_country": "Benin",
+          "metadata_year": 1991
+        },
+        {
+          "input": "{\"post_transition\": false, \"transition_year\": 1995}",
+          "output": "0.4970000088214874",
+          "metadata_fold": 2,
+          "metadata_feature_names": [
+            "gini_income_swiid",
+            "education_spending_gdp",
+            "post_transition",
+            "transition_year"
+          ],
+          "metadata_task_type": "regression",
+          "metadata_row_index": 2,
+          "metadata_country": "Benin",
+          "metadata_year": 1992
+        }
+      ]
+    }
+  ]
+}

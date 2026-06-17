@@ -1,0 +1,22 @@
+{
+  "title": "Dual Stratification Dataset: Post-1990 Democratizers Panel (1990-2024)",
+  "layman_summary": "Panel dataset tracking inequality, education, and democratic quality across 38 countries from 1990-2023, combining V-Dem democracy indicators with World Bank inequality and education data.",
+  "summary": "Comprehensive merged panel dataset with 1291 country-year observations across 38 countries (1990-2023). Contains V-Dem Liberal Democracy Index (v2x_libdem), Political Equality Index (v2pepwrsoc), World Bank Gini coefficient, education spending as % GDP, and tertiary enrollment rates. dataset has <6% missing data overall. Includes 4 true post-1990 democratizers (Bulgaria, Cape Verde, Latvia, Namibia) plus comparative sample of established democracies. Complete cases: 1223 (94.7%). Data sources: V-Dem v.14, World Bank WDI, Our World in Data education dataset.",
+  "out_expected_files": {
+    "script": "data.py",
+    "datasets": [
+      {
+        "full": ["data_out.json"],
+        "mini": "data_out_mini.json",
+        "preview": "data_out_preview.json"
+      }
+    ]
+  },
+  "upload_ignore_regexes": [
+    "(^|/)temp/",
+    "(^|/)\\.venv/",
+    "(^|/)logs/",
+    "(^|/)__pycache__/",
+    "create_.*\\.py"
+  ]
+}

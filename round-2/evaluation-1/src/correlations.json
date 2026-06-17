@@ -1,0 +1,12 @@
+{
+  "gini_within_vs_edu_ineq_index": 0.037094212092867854,
+  "gini_within_vs_v2x_libdem": -0.031734821968619945,
+  "gini_within_vs_v2pepwrsoc": -0.03256619035002629,
+  "gini_within_vs_education_spending_gdp": 0.0009787639817798936,
+  "edu_ineq_index_within_vs_v2x_libdem": -0.0706031334134166,
+  "edu_ineq_index_within_vs_v2pepwrsoc": -0.05686184387753659,
+  "edu_ineq_index_within_vs_education_spending_gdp": -0.13919922521832084,
+  "v2x_libdem_within_vs_v2pepwrsoc": 0.3311529700040093,
+  "v2x_libdem_within_vs_education_spending_gdp": 0.052042117577260766,
+  "v2pepwrsoc_within_vs_education_spending_gdp": 0.05493076444165902
+}

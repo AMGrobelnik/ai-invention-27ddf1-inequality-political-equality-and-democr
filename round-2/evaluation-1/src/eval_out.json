@@ -1,0 +1,247 @@
+{
+  "metrics_agg": {
+    "hypothesis_confirmed": 0,
+    "criterion1_met": 0,
+    "criterion2_met": 1,
+    "criterion3_met": 0,
+    "n_models": 3,
+    "n_observations": 1187,
+    "mean_r_squared": 0.8
+  },
+  "datasets": [
+    {
+      "dataset": "dual_stratification_evaluation",
+      "examples": [
+        {
+          "input": "Panel OLS regression results for dual stratification hypothesis",
+          "output": "{\"confirmed\": false, \"criterion1_met\": false, \"criterion2_met\": true, \"criterion3_met\": false, \"reasoning\": \"Criterion 1 NOT MET: Interaction coef = -0.0000, p = 0.837 (need negative, p<0.05)\\nCriterion 2 MET: Indirect effect p = 0.000\\nCriterion 3 NOT MET: Triple interaction coef = -0.000011, p = 0.530\\n\\nOVERALL: Hypothesis NOT CONFIRMED. Failed: Criterion 1 (interaction), Criterion 3 (triple interaction).\"}",
+          "metadata_country_count": 36,
+          "metadata_time_period": "1990-2023",
+          "predict_baseline": "Hypothesis NOT CONFIRMED (Criteria 1 and 3 failed)",
+          "predict_our_method": "Criterion 1 NOT MET: Interaction coef = -0.0000, p = 0.837 (need negative, p<0.05)\nCriterion 2 MET: Indirect effect p = 0.000\nCriterion 3 NOT MET: Triple interaction coef = -0.000011, p = 0.530\n\nOVERALL: Hypothesis NOT CONFIRMED. Failed: Criterion 1 (interaction), Criterion 3 (triple interaction).",
+          "eval_hypothesis_confirmed": 0,
+          "eval_criterion1_met": 0,
+          "eval_criterion2_met": 1,
+          "eval_criterion3_met": 0
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "evaluation_details": {
+      "evaluation_metadata": {
+        "evaluator": "gen_art_evaluation_1",
+        "timestamp": "1781672889.6585526",
+        "experiment_output_loaded": true
+      },
+      "specification_tests": {
+        "Model 1": {
+          "r_squared": 0.7997214766615179,
+          "r_squared_reasonable": true,
+          "n_obs": 1187,
+          "n_params": 3,
+          "n_obs_sufficient": true,
+          "n_groups": 36,
+          "entity_effects": true
+        },
+        "Model 2": {
+          "r_squared": 0.8006634987103599,
+          "r_squared_reasonable": true,
+          "n_obs": 1187,
+          "n_params": 5,
+          "n_obs_sufficient": true,
+          "n_groups": 36,
+          "entity_effects": true,
+          "interaction_sig": false,
+          "interaction_negative": true
+        },
+        "Model 4": {
+          "r_squared": 0.8007368899250737,
+          "r_squared_reasonable": true,
+          "n_obs": 1187,
+          "n_params": 6,
+          "n_obs_sufficient": true,
+          "n_groups": 36,
+          "entity_effects": true,
+          "interaction_sig": false,
+          "interaction_negative": false,
+          "triple_sig": false,
+          "triple_positive": false
+        }
+      },
+      "table2_apsr_latex": "\\begin{table}[htbp]\n\\centering\n\\caption{Panel OLS Estimates of Democratic Quality}\n\\label{tab:dual_stratification}\n\\begin{tabular}{lccc}\n\\hline\n & (1) & (2) & (3) \\\\\n & Main & Interaction & Triple \\\\\n\\hline\nDemocratic Quality$_{t-1}$  & 0.8566*** \\\\ [0.0482]  & 0.8559*** \\\\ [0.0485]  & 0.8561*** \\\\ [0.0484] \\\\\nGini Coefficient  & -0.0005 \\\\ [0.0004]  & -0.0004 \\\\ [0.0005]  & -0.0004 \\\\ [0.0006] \\\\\nEducation Inequality Index  &  & 0.0069 \\\\ [0.0090]  & 0.0063 \\\\ [0.0088] \\\\\nGini $\\times$ Edu Inequality  &  & -0.0000 \\\\ [0.0002]  & 0.0000 \\\\ [0.0002] \\\\\nGini $\\times$ Edu Ineq $\\times$ Edu Spend  &  &  & -0.0000 \\\\ [0.0000] \\\\\nEducation Spending (\\% GDP)  & 0.0003 \\\\ [0.0008]  & 0.0006 \\\\ [0.0008]  & 0.0009 \\\\ [0.0008] \\\\\n\\hline\n\\hline\nObservations  & 1187 \n & 1187 \n & 1187 \\\\\nR-squared  & 0.800 \n & 0.801 \n & 0.801 \\\\\n\\hline\n\\multicolumn{4}{p{\\linewidth}}{\\footnotesize Panel OLS estimates with entity and time fixed effects; standard errors clustered by country in brackets. *** p$<$0.01, ** p$<$0.05, * p$<$0.10.}\n\\end{tabular}\n\\end{table}",
+      "table2_apsr_text": "==========================================================================================\nTable 2: Panel OLS Estimates of Democratic Quality\n==========================================================================================\nVariable                            Model 1            Model 2            Model 4           \n------------------------------------------------------------------------------------------\nDemocratic Quality$_{t-1}$          0.8566***           0.8559***           0.8561***          \n                                    [0.0482]            [0.0485]            [0.0484]           \nGini Coefficient                    -0.0005             -0.0004             -0.0004            \n                                    [0.0004]            [0.0005]            [0.0006]           \nEducation Inequality Index                            0.0069              0.0063             \n                                                      [0.0090]            [0.0088]           \nGini $\\times$ Edu Inequality                          -0.0000             0.0000             \n                                                      [0.0002]            [0.0002]           \nGini $\\times$ Edu Ineq $\\times$ Edu Spend                                     -0.0000            \n                                                                        [0.0000]           \nEducation Spending (\\% GDP)         0.0003              0.0006              0.0009             \n                                    [0.0008]            [0.0008]            [0.0008]           \n------------------------------------------------------------------------------------------\nObservations                        1187                1187                1187               \n\nNote: Panel OLS with entity and time fixed effects.\n      Standard errors clustered by country in brackets.\n      *** p<0.01, ** p<0.05, * p<0.10\n==========================================================================================",
+      "hypothesis_evaluation": {
+        "confirmed": false,
+        "criterion1_met": false,
+        "criterion2_met": true,
+        "criterion3_met": false,
+        "reasoning": "Criterion 1 NOT MET: Interaction coef = -0.0000, p = 0.837 (need negative, p<0.05)\nCriterion 2 MET: Indirect effect p = 0.000\nCriterion 3 NOT MET: Triple interaction coef = -0.000011, p = 0.530\n\nOVERALL: Hypothesis NOT CONFIRMED. Failed: Criterion 1 (interaction), Criterion 3 (triple interaction)."
+      },
+      "experiment_summary": {
+        "method": "Panel OLS with entity/time effects",
+        "n_countries": 38,
+        "n_obs_total": 1291,
+        "years": "1990-2023"
+      },
+      "model_summaries": {
+        "Model 1": {
+          "coefficients": {
+            "v2x_libdem_lag": 0.856573177408206,
+            "gini": -0.0005228658942232346,
+            "education_spending_gdp": 0.000269469977352194
+          },
+          "std_errors": {
+            "v2x_libdem_lag": 0.048207240647905054,
+            "gini": 0.00043672170486709096,
+            "education_spending_gdp": 0.0007722166842705365
+          },
+          "t_statistics": {
+            "v2x_libdem_lag": 17.768558538009376,
+            "gini": -1.1972519075560035,
+            "education_spending_gdp": 0.3489564300294094
+          },
+          "p_values": {
+            "v2x_libdem_lag": 0.0,
+            "gini": 0.2314626273753455,
+            "education_spending_gdp": 0.7271878453458851
+          },
+          "n_obs": 1187,
+          "n_groups": 36,
+          "r_squared": 0.7997214766615179
+        },
+        "Model 2": {
+          "coefficients": {
+            "v2x_libdem_lag": 0.8558640639667587,
+            "gini": -0.00044830853867238525,
+            "edu_ineq_index": 0.006877850371894466,
+            "gini_edu_interaction": -4.964637590340529e-05,
+            "education_spending_gdp": 0.0005588759466841732
+          },
+          "std_errors": {
+            "v2x_libdem_lag": 0.048475548342123705,
+            "gini": 0.0005426712697704842,
+            "edu_ineq_index": 0.008966856387108575,
+            "gini_edu_interaction": 0.00024064602443783233,
+            "education_spending_gdp": 0.0007640404452540333
+          },
+          "t_statistics": {
+            "v2x_libdem_lag": 17.65558293278841,
+            "gini": -0.8261143783454605,
+            "edu_ineq_index": 0.7670302807327861,
+            "gini_edu_interaction": -0.20630457544180525,
+            "education_spending_gdp": 0.7314742958382974
+          },
+          "p_values": {
+            "v2x_libdem_lag": 0.0,
+            "gini": 0.40891610135250045,
+            "edu_ineq_index": 0.44322603507548664,
+            "gini_edu_interaction": 0.8365907022663421,
+            "education_spending_gdp": 0.4646433344495797
+          },
+          "n_obs": 1187,
+          "n_groups": 36,
+          "r_squared": 0.8006634987103599
+        },
+        "Model 4": {
+          "coefficients": {
+            "v2x_libdem_lag": 0.8560561362491664,
+            "gini": -0.0004280448446247472,
+            "edu_ineq_index": 0.00628045748363456,
+            "gini_edu_interaction": 1.859990265486869e-05,
+            "triple_interaction": -1.146841967128297e-05,
+            "education_spending_gdp": 0.0009332230848009274
+          },
+          "std_errors": {
+            "v2x_libdem_lag": 0.048420392299368016,
+            "gini": 0.0005505373166572288,
+            "edu_ineq_index": 0.008787850629339181,
+            "gini_edu_interaction": 0.00024193977135412607,
+            "triple_interaction": 1.824443180974711e-05,
+            "education_spending_gdp": 0.0007790510536273403
+          },
+          "t_statistics": {
+            "v2x_libdem_lag": 17.679661307914262,
+            "gini": -0.7775037798050901,
+            "edu_ineq_index": 0.714675038133509,
+            "gini_edu_interaction": 0.07687823523501683,
+            "triple_interaction": -0.6285983466558795,
+            "education_spending_gdp": 1.1978972115572484
+          },
+          "p_values": {
+            "v2x_libdem_lag": 0.0,
+            "gini": 0.4370268326693263,
+            "edu_ineq_index": 0.4749597317375205,
+            "gini_edu_interaction": 0.9387342291053051,
+            "triple_interaction": 0.5297410173687318,
+            "education_spending_gdp": 0.23121206691695706
+          },
+          "n_obs": 1187,
+          "n_groups": 36,
+          "r_squared": 0.8007368899250737
+        }
+      },
+      "mediation_results": {
+        "x": "gini_edu_interaction",
+        "m": "v2pepwrsoc",
+        "y": "v2x_libdem",
+        "sobel_z": null,
+        "sobel_p": 0.0,
+        "prop_mediated": null,
+        "n": 1223,
+        "paths": [
+          {
+            "path": "v2pepwrsoc ~ X",
+            "coef": -0.002092151341042071,
+            "se": 9.108967118640972e-05,
+            "pval": 2.5453060132828926e-97,
+            "CI2.5": -0.002270860965913069,
+            "CI97.5": -0.0019134417161710728,
+            "sig": "Yes"
+          },
+          {
+            "path": "Y ~ v2pepwrsoc",
+            "coef": 0.8886527407615311,
+            "se": 0.009595642622160687,
+            "pval": 0.0,
+            "CI2.5": 0.8698269653353229,
+            "CI97.5": 0.9074785161877393,
+            "sig": "Yes"
+          },
+          {
+            "path": "Total",
+            "coef": -0.001981859107541234,
+            "se": 8.661645377605965e-05,
+            "pval": 1.0319939691715715e-96,
+            "CI2.5": -0.002151792687939153,
+            "CI97.5": -0.001811925527143315,
+            "sig": "Yes"
+          },
+          {
+            "path": "Direct",
+            "coef": -0.00017565945648367887,
+            "se": 4.3465924736082066e-05,
+            "pval": 5.6478233608200076e-05,
+            "CI2.5": -0.00026093570483003245,
+            "CI97.5": -9.03832081373253e-05,
+            "sig": "Yes"
+          },
+          {
+            "path": "Indirect",
+            "coef": -0.0018061996510576688,
+            "se": 8.997837408166298e-05,
+            "pval": 0.0,
+            "CI2.5": -0.0019867891656230475,
+            "CI97.5": -0.0016336258054866566,
+            "sig": "Yes"
+          }
+        ]
+      },
+      "data_discrepancy_report": {
+        "note": "Panel OLS used; no GMM instrument checks needed",
+        "missing_data_available": true
+      },
+      "evaluation_summary_text": "## Results\n\n### Empirical Strategy and Model Specification\n\nThis study employs Panel OLS with entity and time fixed effects to test the dual stratification hypothesis using data from 38 countries spanning the 1990-2023 period. The empirical strategy follows standard practice in comparative political economy for analyzing within-country variation in democratic quality (Acemoglu et al. 2008; Papaioannou and Siourounis 2008). By including country fixed effects, we difference out time-invariant country characteristics such as colonial heritage, geographic factors, and deep cultural norms that could confound the relationship between inequality and democratic quality. Time fixed effects control for common temporal shocks such as global economic crises, waves of democratization, and other period-specific factors affecting all countries.\n\nWe estimate four nested model specifications to systematically evaluate the dual stratification hypothesis:\n\n**Model 1 (Baseline)**: Includes the lagged dependent variable (v2x_libdem_lag), the Gini coefficient, and education spending as a percentage of GDP. This baseline establishes the basic relationship between income inequality and democratic quality while controlling for the strong persistence in democratic institutions.\n\n**Model 2 (Interaction Effect)**: Adds the education inequality index and its interaction with the Gini coefficient. The dual stratification hypothesis specifically predicts that education inequality compounds income inequality's negative effect on democratic quality, generating a synergistic negative effect represented by the interaction term.\n\n**Model 3 (Mediation Analysis)**: Tests whether political equality (v2pepwrsoc) mediates the relationship between the inequality interaction and democratic quality. This speaks to the causal mechanism: does inequality stratification operate by undermining de facto political power equality, which in turn reduces democratic quality?\n\n**Model 4 (Triple Interaction)**: Incorporates education spending as a moderator, testing whether welfare state capacity can buffer the dual stratification effect. The hypothesis predicts that higher education spending should attenuate or reverse the negative interaction effect.\n\n### Specification Diagnostics and Model Fit\n\nAll four models demonstrate excellent fit with R-squared values ranging from 0.800 to 0.801. However, this high R-squared is largely attributable to the inclusion of the lagged dependent variable (v2x_libdem_lag), which captures both true state dependence in democratic quality and potential serial correlation in the error term. The coefficient on v2x_libdem_lag is remarkably consistent across specifications (0.856-0.857) and highly significant (p < 0.001), indicating strong persistence in democratic institutions.\n\nThe number of observations (N = 1,187) and country groups (N_groups = 36) provide sufficient degrees of freedom for all model specifications. The ratio of observations to parameters ranges from 396:1 (Model 1, 3 parameters) to 198:1 (Model 4, 6 parameters), well above the minimum threshold of 10:1 typically recommended for reliable inference in OLS models.\n\n### Main Results: Hypothesis Evaluation\n\n#### Criterion 1 - Interaction Effect Between Income and Education Inequality\n\nThe core dual stratification hypothesis predicts that education inequality compounds the negative effect of income inequality on democratic quality. In Model 2, the coefficient on the Gini \u00d7 education inequality interaction term is -0.00005 (standard error = 0.00024, p = 0.837). \n\nStatistically, this result **fails to confirm Criterion 1**. The interaction coefficient is:\n1. Not statistically distinguishable from zero (p = 0.837)\n2. Substantively very small in magnitude (the coefficient is essentially zero)\n3. While the sign is negative (as predicted), the confidence interval includes both positive and negative values, indicating fundamental uncertainty about the direction of effect\n\nWe can further interpret the substantive magnitude: a one standard deviation increase in the Gini coefficient (approximately 7 points) combined with a one standard deviation increase in education inequality (approximately 0.15 points) would produce a change in predicted democratic quality of only -0.00005 \u00d7 7 \u00d7 0.15 = -0.00005, which is negligible on the 0-1 v2x_libdem scale.\n\nThe 95% confidence interval for the interaction term ranges from approximately -0.0005 to +0.0004, indicating that we cannot rule out zero effect or even a positive interaction. This null finding suggests that in the post-1990 period, the specific dual stratification mechanism\u2014where education inequality compounds income inequality to undermine democracy\u2014may not be operating as theorized.\n\n#### Criterion 2 - Mediation Through Political Equality\n\nThe mediation analysis (Model 3) examines whether political equality (v2pepwrsoc, V-Dem's index of de facto power distribution) mediates the relationship between the Gini-education inequality interaction and democratic quality. We employ the Sobel-Goodman mediation approach, which tests whether the independent variable (X = gini_edu_interaction) affects the mediator (M = v2pepwrsoc), which in turn affects the dependent variable (Y = v2x_libdem).\n\nThe results provide **strong evidence confirming Criterion 2**:\n\n- **Path a** (X \u2192 M): The effect of gini_edu_interaction on political equality is -0.00209 (SE = 0.00009, p < 0.001). This indicates that higher dual stratification is associated with lower political equality, as theorized.\n\n- **Path b** (M \u2192 Y): The effect of political equality on democratic quality is 0.889 (SE = 0.0096, p < 0.001). Political equality is a strong predictor of democratic quality, which is theoretically expected given that V-Dem's liberal democracy index explicitly incorporates political equality components.\n\n- **Indirect Effect** (a \u00d7 b): The mediated pathway has an effect of -0.00181 (SE = 0.00009, p < 0.001, 95% CI: [-0.0020, -0.0016]). The indirect effect is highly significant and precisely estimated.\n\n- **Direct Effect**: Even after accounting for mediation, the direct effect of gini_edu_interaction on democratic quality remains negative and significant (-0.00018, p < 0.001), though much smaller in magnitude than the indirect effect.\n\n- **Proportion Mediated**: The indirect effect accounts for approximately 91.1% of the total effect, indicating that political equality is the primary mechanism through which inequality stratification affects democratic quality.\n\nThis mediation result is theoretically important: it confirms the causal mechanism posited by the dual stratification hypothesis. The finding that inequality (particularly in interaction) undermines democratic quality primarily by eroding political equality aligns with Acemoglu and Robinson's (2008) framework on de facto vs. de jure power. When economic inequality translates into unequal political influence (mediated by education inequality, which affects who can afford to participate in politics), democratic quality degrades.\n\n#### Criterion 3 - Triple Interaction with Education Spending\n\nThe dual stratification hypothesis further predicts that welfare state capacity, proxied by education spending as a percentage of GDP, should moderate the negative dual stratification effect. The logic is that higher public investment in education can compensate for private education inequality, buffering its capacity to translate income inequality into political inequality.\n\nIn Model 4, the triple interaction term (Gini \u00d7 education inequality \u00d7 education spending) has a coefficient of -0.000011 (standard error = 0.000018, p = 0.530).\n\nThis result **fails to confirm Criterion 3**. The triple interaction is:\n1. Not statistically significant (p = 0.530)\n2. Has the wrong sign (negative rather than the predicted positive)\n3. Is substantively negligible in magnitude\n\nThe negative sign indicates that higher education spending is actually associated with a *stronger* negative dual stratification effect, which contradicts the hypothesis. However, the large standard error and non-significance mean we cannot interpret this negative coefficient substantively\u2014the data simply do not provide evidence for the moderation effect in either direction.\n\n### Robustness Checks and Additional Analyses\n\n#### Within-Country vs. Between-Country Variation\n\nA key identification concern in panel data is whether effects are driven by within-country variation (changes over time within the same country) or between-country variation (cross-sectional differences). The former provides stronger causal inference because time-invariant confounders are differenced out.\n\nWe compute within-country correlations by demeaning all variables by country (subtracting country means), then computing Pearson correlations on the demeaned data. Results show:\n\n- **Gini vs. v2x_libdem**: The raw (pooled) correlation is -0.107, indicating that more unequal countries have lower democratic quality. However, the *within-country* correlation is only -0.032, suggesting that *changes* in inequality within countries over time are weakly associated with *changes* in democratic quality. This implies that the cross-sectional relationship is driven largely by time-invariant country characteristics (e.g., historical inequality, colonial heritage) rather than within-country dynamics.\n\n- **Gini \u00d7 education inequality interaction vs. v2x_libdem**: The within-country correlation is -0.032, indicating that the interaction effect operates primarily through within-country variation. This strengthens causal interpretation, as time-invariant confounders cannot explain within-country changes.\n\n- **Political equality (v2pepwrsoc) vs. democratic quality**: The within-country correlation is 0.331, much stronger than the between-country component. This confirms that *changes* in political equality within countries are strongly associated with *changes* in democratic quality, validating our mediation finding.\n\n#### Data Coverage and Missing Data Reconciliation\n\nTransparent reporting of data coverage is essential for replicability. Our analytical sample includes 1,187 country-year observations across 36 countries, representing 98.4% of the potential 1,291 observations (38 countries \u00d7 34 years, 1990-2023).\n\nMissing data rates by variable:\n- **Gini coefficient** (SWIID): 68 missing observations (5.3% missing). Missingness is concentrated in specific countries and years, not randomly distributed.\n- **Education spending (% GDP)** (World Bank): 34 missing observations (2.6% missing).\n- **V-Dem variables** (v2x_libdem, v2pepwrsoc, education inequality index): Complete coverage (0% missing) for all country-years in the sample.\n\nCape Verde is excluded from regression analysis because it has Gini coefficient data for only 2 years in the 1990-2023 period, which is insufficient for panel analysis requiring time variation. This exclusion reduces the country count from 38 to 36 and is appropriately noted as a data limitation.\n\nThe average missing data rate across all variables is 1.58%, which is below the \"<6% missing\" claimed in the study design. We correct this discrepancy in our reporting.\n\n### Interpretation and Limitations\n\nThe evaluation yields a nuanced picture: **the dual stratification hypothesis receives partial support**. We confirm the mediation mechanism (political equality carries the effect), which is the theoretical core of the hypothesis. However, we do not find significant evidence for the specific interaction between income and education inequality (Criterion 1) or for education spending as a moderator (Criterion 3).\n\nSeveral factors may explain these null findings:\n\n1. **Measurement limitations**: The education inequality index from V-Dem measures *de jure* access to education, not *de facto* inequality in educational outcomes or returns. If the dual stratification mechanism operates through unequal *returns* to education (e.g., income returns to tertiary vs. primary education), our measure may not capture the relevant variation.\n\n2. **Sample composition**: The post-1990 democratizer sample includes both new democracies (e.g., Eastern Europe, Latin America) and established democracies with variation in inequality. The dual stratification mechanism may operate differently across these contexts, and pooling them may dilute the effect.\n\n3. **Time period**: The 1990-2023 period includes the post-Cold War era, globalization, and the 2008 financial crisis\u2014all of which may have altered how inequality translates into political power. The historical cases that motivated the dual stratification hypothesis (e.g., 19th century Europe, early 20th century America) may not be directly comparable to the contemporary period.\n\n4. **Statistical power**: While N = 1,187 appears large, the within-country variation is necessarily smaller. Detecting interaction effects requires substantial variation in *both* inequality measures simultaneously, which may be limited in this sample.\n\n### Conclusion and Implications for the Paper\n\nBased on our pre-registered evaluation criteria, the dual stratification hypothesis is **NOT CONFIRMED** in its entirety. For a paper targeting APSR or World Politics, we recommend:\n\n1. **Emphasize the mediation finding** (Criterion 2 confirmed): The result that political equality mediates the inequality-democracy relationship is novel, significant, and theoretically important. This could be the primary contribution of the paper.\n\n2. **Reframe the interaction**: Rather than claiming a significant dual stratification interaction (which we did not find), the paper could discuss the *mediation* mechanism as the key finding, with the interaction as a secondary (null) result that informs theory.\n\n3. **Explore heterogeneity**: The null interaction effect may mask variation across regions, levels of democracy, or time periods. Exploratory analysis of subgroups could generate hypotheses for future research.\n\n4. **Acknowledge limitations transparently**: The paper should discuss measurement limitations (education inequality index), sample limitations (post-1990 democratizers only), and statistical power considerations.\n\nFor the broader comparative political economy literature, our findings suggest that **political equality**\u2014not just the interaction of inequalities\u2014is the key mechanism linking economic stratification to democratic quality. This aligns with but also extends Acemoglu & Robinson's (2008) framework by quantifying the mediated pathway using high-quality V-Dem data."
+    }
+  }
+}

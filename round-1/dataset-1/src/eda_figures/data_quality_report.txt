@@ -1,0 +1,12 @@
+Data Quality Report
+============================================================
+
+Countries: 183
+Observations: 14322
+Year range: 1990 - 2024
+
+Missing data:
+  num_years_in_electdem_consecutive_cat: 109 (0.8%)
+  num_years_in_libdem_consecutive_cat: 109 (0.8%)
+  wom_parl_vdem_cat: 1154 (8.1%)
+  iso3: 2645 (18.5%)

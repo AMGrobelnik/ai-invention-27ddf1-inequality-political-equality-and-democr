@@ -1,0 +1,85 @@
+{
+  "total_rows": 1291,
+  "total_countries": 38,
+  "year_range": [
+    1990,
+    2023
+  ],
+  "countries": [
+    "Argentina",
+    "Australia",
+    "Austria",
+    "Barbados",
+    "Belgium",
+    "Brazil",
+    "Bulgaria",
+    "Canada",
+    "Cape Verde",
+    "Chile",
+    "Colombia",
+    "Costa Rica",
+    "Croatia",
+    "Cyprus",
+    "Czechia",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Ghana",
+    "Greece",
+    "Iceland",
+    "Ireland",
+    "Israel",
+    "Italy",
+    "Jamaica",
+    "Japan",
+    "Latvia",
+    "Lesotho",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Moldova",
+    "Namibia",
+    "Netherlands",
+    "New Zealand",
+    "Norway"
+  ],
+  "democratizers": [
+    "Bulgaria",
+    "Cape Verde",
+    "Latvia",
+    "Namibia"
+  ],
+  "columns": [
+    "country",
+    "year",
+    "v2x_libdem",
+    "v2pepwrsoc",
+    "gini",
+    "education_spending_gdp",
+    "tertiary_enrollment",
+    "tertiary_enrollment_z",
+    "edu_ineq_index",
+    "post_1990_democratizer"
+  ],
+  "missing_data": {
+    "gini": {
+      "count": 68,
+      "percent": 5.267234701781565
+    },
+    "education_spending_gdp": {
+      "count": 34,
+      "percent": 2.6336173508907823
+    }
+  },
+  "complete_cases": 1223,
+  "variables": {
+    "v2x_libdem": "V-Dem Liberal Democracy Index (0-1)",
+    "v2pepwrsoc": "V-Dem Political Equality Index (0-4)",
+    "gini": "Gini coefficient (0-100)",
+    "education_spending_gdp": "Government education spending (% GDP)",
+    "tertiary_enrollment": "Tertiary enrollment rate (%)",
+    "edu_ineq_index": "Education inequality index (higher = more inequality)"
+  }
+}

@@ -1,0 +1,18 @@
+[project]
+name = "post1990-democratizers-inequality-dataset"
+version = "1.0.0"
+description = "Panel dataset of post-1990 democratizers with inequality measures"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas==2.2.3",
+    "numpy==1.26.4",
+    "json5==0.12.0",
+    "loguru==0.7.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = []

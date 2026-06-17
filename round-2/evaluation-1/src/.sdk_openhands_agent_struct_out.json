@@ -1,0 +1,20 @@
+{
+  "title": "Evaluation of Dual Stratification Hypothesis: Panel OLS Results Validation",
+  "layman_summary": "Evaluates regression models testing if inequality and education inequality interact to affect democratic quality, with political equality as mediator. Produces eval.py and eval_out.json with diagnostics, APSR tables, hypothesis evaluation.",
+  "summary": "Comprehensive evaluation of Panel OLS regression results from the dual stratification hypothesis experiment. Evaluated 3 models (Main, Interaction, Triple Interaction) with entity and time fixed effects. Generated APSR-formatted Table 2 with clustered standard errors. Hypothesis evaluation based on 3 criteria: (1) Gini x education inequality interaction negative/significant, (2) political equality mediation significant, (3) triple interaction positive/significant. Results: Criterion 1 NOT MET (interaction coef=-0.00005, p=0.837), Criterion 2 MET (indirect effect p<0.001), Criterion 3 NOT MET (triple interaction coef=-0.000011, p=0.530). Overall: Hypothesis NOT CONFIRMED. Evaluation output includes specification tests, APSR tables (LaTeX and text), mediation results, hypothesis evaluation with reasoning, and 1965-word Results section draft for paper.",
+  "out_expected_files": {
+    "script": "eval.py",
+    "full_output": "full_eval_out.json",
+    "mini_output": "mini_eval_out.json",
+    "preview_output": "preview_eval_out.json"
+  },
+  "upload_ignore_regexes": [
+    "(^|/)temp/",
+    "(^|/)\\.venv/",
+    "(^|/)logs/",
+    "(^|/)_*_old\\.py",
+    "(^|/)__pycache__/",
+    "create_.*\\.py",
+    "eval_(gmm_|v2_|complete_)?old\\.py"
+  ]
+}

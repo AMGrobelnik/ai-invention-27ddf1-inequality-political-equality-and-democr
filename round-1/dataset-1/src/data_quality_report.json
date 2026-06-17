@@ -1,0 +1,42 @@
+{
+  "total_rows": 1427,
+  "total_countries": 40,
+  "year_range": [
+    1990,
+    2023
+  ],
+  "columns": [
+    "country",
+    "year",
+    "v2x_libdem",
+    "v2pepwrsoc",
+    "gini",
+    "education_spending_gdp",
+    "tertiary_enrollment",
+    "tertiary_enrollment_z",
+    "edu_ineq_index",
+    "post_1990_democratizer"
+  ],
+  "missing_data": {
+    "gini": {
+      "count": 638,
+      "percent": 44.70918009810792
+    },
+    "education_spending_gdp": {
+      "count": 460,
+      "percent": 32.2354590049054
+    },
+    "tertiary_enrollment": {
+      "count": 653,
+      "percent": 45.76033637000701
+    },
+    "tertiary_enrollment_z": {
+      "count": 653,
+      "percent": 45.76033637000701
+    },
+    "edu_ineq_index": {
+      "count": 653,
+      "percent": 45.76033637000701
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "missing_data_rates": {
+    "gini": {
+      "missing_count": 68,
+      "total_count": 1291,
+      "missing_percent": 5.267234701781565
+    },
+    "edu_ineq_index": {
+      "missing_count": 0,
+      "total_count": 1291,
+      "missing_percent": 0.0
+    },
+    "v2x_libdem": {
+      "missing_count": 0,
+      "total_count": 1291,
+      "missing_percent": 0.0
+    },
+    "v2pepwrsoc": {
+      "missing_count": 0,
+      "total_count": 1291,
+      "missing_percent": 0.0
+    },
+    "education_spending_gdp": {
+      "missing_count": 34,
+      "total_count": 1291,
+      "missing_percent": 2.6336173508907823
+    }
+  },
+  "cape_verde_present": true,
+  "cape_verde_excluded": false,
+  "cape_verde_note": "",
+  "country_coverage": {
+    "Argentina": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Australia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Austria": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Barbados": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Belgium": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Brazil": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Bulgaria": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Canada": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Cape Verde": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Chile": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Colombia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Costa Rica": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Croatia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Cyprus": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Czechia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Denmark": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Estonia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Finland": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "France": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Germany": {
+      "min_year": 1991,
+      "max_year": 2023,
+      "n_years": 33
+    },
+    "Ghana": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Greece": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Iceland": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Ireland": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Israel": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Italy": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Jamaica": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Japan": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Latvia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Lesotho": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Lithuania": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Luxembourg": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Malta": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Moldova": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Namibia": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Netherlands": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "New Zealand": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    },
+    "Norway": {
+      "min_year": 1990,
+      "max_year": 2023,
+      "n_years": 34
+    }
+  },
+  "insufficient_data_countries": [],
+  "claimed_missing_rate": "<6%",
+  "actual_avg_missing_rate": 1.5801704105344694
+}
